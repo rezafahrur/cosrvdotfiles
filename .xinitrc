@@ -78,6 +78,13 @@ fi
 
 #wait $wmpid
 
+#fakedisplay
+
+#export DISPLAY=:1
+#Xvfb :1 -screen 0 1366x768x16 &
+#sleep 1
+
+/home/bestadm/.startup.sh
 exec i3
 
 ### For DWM ####
