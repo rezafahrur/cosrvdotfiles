@@ -1,0 +1,10 @@
+[Unit]
+Description=This service calls shutdown-sound.sh upon shutdown or reboot created by Reza F. Rasyid.
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStop=/home/bestadm/bin/shutdown/shutdown-sound.sh
+
+[Install]
+WantedBy=multi-user.target
