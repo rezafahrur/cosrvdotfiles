@@ -262,7 +262,7 @@ exec --no-startup-id /home/bestadm/bin/greeting/greeting.sh
 bindsym $mod+F1 exec urxvt -e ranger
 #bindsym $mod+F1 exec st -e ranger
 bindsym $mod+Shift+h exec urxvt -e hollywood
-bindsym $mod+Shift+w exec --no-startup-id pkill compton
+#bindsym $mod+Shift+w exec --no-startup-id pkill compton
 bindsym $mod+Shift+t exec --no-startup-id compton -b
 bindsym $mod+F2 exec nautilus
 bindsym $mod+n exec /home/bestadm/bin/navicat/start_navicat
