@@ -11,10 +11,10 @@ cp -R greeting $HOME/bin/greeting
 cp -R shutdown $HOME/bin/shutdown
 mkdir -p $HOME/.fonts
 cp Terminess\ \(TTF\)\ Nerd\ Font\ Complete\ Mono.ttf $HOME/.fonts/Terminess\ \(TTF\)\ Nerd\ Font\ Complete\ Mono.ttf
-cp -R .bashrc $HOME/.bashrc
-cp -R .aliases $HOME/.aliases
-cp -R .nanorc $HOME/.nanorc
-cp -R .Xdefaults $HOME/.Xdefaults
-cp -R .Xresources $HOME/.Xresources
-cp -R .xinitrc $HOME/.xinitrc
-cp -R startup.sh $HOME/.startup.sh
+cp .bashrc $HOME/.bashrc
+cp .aliases $HOME/.aliases
+cp .nanorc $HOME/.nanorc
+cp .Xdefaults $HOME/.Xdefaults
+cp .Xresources $HOME/.Xresources
+cp .xinitrc $HOME/.xinitrc
+cp startup.sh $HOME/.startup.sh
